@@ -1,0 +1,925 @@
+/*!
+Theme Name: Recipe Yard
+Theme URI: http://underscores.me/
+Author: Akter Hussain
+Author URI: http://akterhussain.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: recipe-yard
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Recipe Yard is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.content-image img {
+	width: 100%;
+	height: auto;
+	margin: 25px 0;
+}
+
+
+.menu-display{
+	display: block;
+}
+
+.menu-display-2{
+	display: none;
+}
+
+
+.kb_caption h1 {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	text-shadow: none;
+	padding: 5px 0 5px 15px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	color: #CE242B;
+	background: #fff;
+	display: inline-block;
+	padding: 15px 15px;
+}
+
+.kb_caption h1:hover {
+
+	background: #CDD4D1;
+}
+
+
+
+
+.kb_caption h2 {
+	font-size: 20px;
+	text-align: left;
+	text-shadow: none;
+	padding-left: 15px;
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+
+.kb_caption a:hover {
+	text-decoration: none;
+	color: #CE242B !important;
+}
+
+
+.kb_control_left, .kb_control_right {
+	top: 35%;
+	z-index: 2;
+	opacity: 0;
+	width: 55px;
+	height: 55px;
+	text-align: left;
+	-webkit-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+}
+
+
+.category_option  {
+	font-size: 13px;
+}
+
+
+
+.category_option span {
+	float: right;
+}
+
+
+.category_option hr {
+	width: 100%;
+	margin: 5px 0;
+	overflow: hidden;
+}
+
+.category_option a  {
+	color: #CE242B;
+}
+
+.category_option a:hover  {
+	color: #23282D;
+	text-decoration: none;
+}
+
+
+.bangla-recipe-content h2 a {
+	color: #CE242B;
+}
+
+.bangla-recipe-content h2 a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+
+.popular-post {
+	margin: 20px 0px 30px 0px;
+}
+
+.popular-post a img{
+		width: 100%;
+		height: auto;
+}
+
+
+.popular-post h2 {
+	margin: 7px 0 0 0;
+	padding: 0;
+	line-height: 15px;
+}
+
+
+.popular-post h2 a {
+	font-size: 16px;
+	color: #CE242B;
+}
+
+
+.popular-post h2 a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.pagination-content {
+	text-align: center;
+	margin: 30px 0;
+	color: #CE242B;
+}
+
+.pagination-content a {
+	color: #CE242B;
+	margin: 0 5px;
+}
+
+.pagination-content a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+
+.button-social {
+	margin: 25px 0 0 0;
+}
+
+
+.button-social ul {
+	margin: 0;
+	padding: 0;
+}
+
+.button-social ul li {
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px 0px 0px;
+}
+
+.button-social ul li a {
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+.button-social ul li a:hover {
+	color: #CE242B;
+}
+
+
+.button-menu ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.button-menu ul li {
+	margin: 0;
+	padding: 0 7px;
+	display: inline-block;
+	list-style: none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+.button-menu ul li:last-child {
+
+	border-right: none;
+}
+
+
+.button-menu ul li a {
+	margin: -5px 0;
+	padding: 0;
+	display: block;
+	color: #fff;
+}
+
+.button-menu ul li a:hover {
+	text-decoration: none;
+	color: #CDD4D1;
+}
+
+
+
+.button-menu {
+	margin: 11px 0 0 0;
+}
+
+
+.footer-post {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	padding: 0px 6px 6px 0px;
+}
+
+.footer-post img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border: 3px solid #fff;
+}
+
+.page-content-area {
+	padding: 100px 0;
+}
+
+.single-contnet img {
+	width: 100%;
+	height: auto;
+}
+
+
+.comment-form-comment label {
+	display: none;
+}
+
+.comment-list li {
+	list-style: none;
+}
+.comments-title {
+	display: none;
+}
+
+.comment-list {
+	padding: 0;
+	margin: 30px 0;
+}
+
+.comment-list {
+	padding: 0;
+	margin: 30px 0 0 0;
+}
+
+.form-submit input {
+	color: #fff;
+	background: #CE242B;
+	border: none;
+	padding: 5px 15px;
+}
+
+
+.form-submit input:hover {
+	color: #fff;
+	background: #333;
+
+}
+
+.fn {
+	margin: 0 0px 0px 5px;
+}
+
+.comment-form-author label {
+	margin: 0 5px 0 0px;
+}
+
+.comment-form-email label {
+	margin: 0 7px 0 0px;
+}
+
+
+.related-content h2 {
+	font-size: 18px;
+	margin: 5px 0;
+	padding: 0;
+}
+
+.related-content h2 a{
+	color: #CE242B;
+}
+
+.related-content h2 a:hover{
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+.sidebar-recent-post h2 {
+	margin: 0px 0 15px 0;
+	padding: 0px 0px 5px 0;
+	font-size: 22px;
+	color: #CE242B;
+	border-bottom: 1px solid;
+}
+
+
+.sidebar-post {
+	overflow: hidden;
+	margin: 0px 0px 15px 0px;
+}
+
+.sidebar-post a img {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-top: 5px;
+}
+
+.sidebar-post a img:hover {
+	opacity: 0.8;
+}
+
+
+
+.sidebar-post h2 {
+	width: 70%;
+	float: right;
+	border: none;
+	font-size: 19px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+.sidebar-post h2 a {
+	color: #CE242B;
+}
+
+.sidebar-post h2 a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.related-content {
+	margin: 0px 0px 20px 0px;
+}
+
+.comment-form-author input {
+	margin-left: 30px;
+}
+
+.comment-form-email input {
+	margin-left: 6px;
+}
+
+.comment-subscription-form {
+	display: none;
+}
+
+.related-post-content h2 {
+	font-size: 22px;
+	margin: 15px 0px 11px 0;
+}
+
+.form-submit {
+	margin: 11px 0 30px 0px;
+}
+
+.related-content h2 {
+	font-size: 18px;
+}
+
+.sidebar-recent-post {
+	margin: 0 0 20px 0px;
+}
+
+
+.kb_icons {
+	line-height: 50px;
+	font-size: 34px !important;
+	font-weight: normal !important;
+	padding: 0px 17px;
+}
+
+
+
+.wpcf7-form-control.wpcf7-submit {
+	background: #CE242B;
+	color: #fff;
+	border: none;
+	display: inline-block;
+	width: 175px;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+	background: #818991;
+	color: #fff;
+}
+
+
+.moci-contact-form {
+	overflow: hidden;
+}
+
+.moni-name {
+	width: 100%;
+	padding: 5px;
+}
+
+.moni-email {
+	width: 100%;
+	padding: 5px;
+}
+
+.moni-email {
+	width: 100%;
+	padding: 5px;
+}
+
+.moni-subject {
+	width: 100%;
+	padding: 5px;
+}
+
+.moni-textarea {
+	width: 100%;
+	height: 180px;
+	padding: 5px;
+}
+
+.moni-contact {
+	margin: 50px 0;
+}
+
+.moni-submit {
+	background: #CE242B;
+	color: #fff;
+	border: none;
+	padding: 8px 25px;
+}
+
+.moni-submit:hover {
+	background: #818991;
+	color: #fff;
+
+}
+
+
+.mc4wp-form-fields input[type="submit"] {
+	background: #CE242B;
+	color: #fff;
+	border: none;
+	width: 50%;
+}
+
+
+.mc4wp-form-fields input[type="submit"]:hover {
+	background: #818991;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+.top-social {
+	text-align: center;
+	margin: 4px 0 0 0;
+	display: none;
+}
+
+
+.menu-button {
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 6px;
+}
+
+
+.menu-content-area {
+	position: absolute;
+	display: none;
+	width: 315px;
+	z-index: 1;
+	right: 3px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background: #CDD4D1;
+	top: 27px;
+	padding: 6px;
+	border: 10px solid #fff;
+}
+
+.main-menu-section:hover .menu-content-area {
+	display: block;
+}
+
+.main-menu ul li a {
+	margin: 0;
+	display: block;
+	font-size: 12px;
+	padding: 5px 8px;
+	color: #CE242B;
+}
+
+.logo-area img {
+	width: 80px;
+	height: auto;
+}
+
+.carousel-area {
+	padding-top: 50px;
+}
+
+
+.kb_caption h1 {
+	font-size: 15px !important;
+	padding: 7px 4px !important;
+	text-align: left;
+}
+
+
+.kb_caption {
+	left: 15px;
+	width: 75%;
+	bottom: -10%;
+	text-align: left;
+}
+
+
+.kb_caption h2 {
+	font-size: 13px !important;
+
+}
+
+.kb_control_left, .kb_control_right {
+	top: 30%;
+
+
+}
+
+
+
+
+.button-menu {
+	margin: 11px 0 0 0;
+	text-align: center;
+}
+.footer-text p {
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.menu-display{
+	display: none;
+}
+
+.menu-display-2{
+	display: block;
+}
+
+.footer-post {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	padding: 10px 0px 7px 0px;
+}
+
+
+.comment-form-comment textarea {
+	width: 100%;
+	margin: 0;
+}
+
+.comment-form-author input {
+	width: 100%;
+	margin: 0;
+}
+
+.comment-form-email input {
+	width: 100%;
+	margin: 0;
+}
+
+.comment-form-url input {
+	width: 100%;
+}
+
+.sidebar-post a img {
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+}
+
+
+.sidebar-post h2 {
+	width: 60%;
+	float: right;
+	border: none;
+	font-size: 15px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+.menu-button {
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 11px;
+}
+
+.top-social {
+	text-align: center;
+	margin: 4px 0px 0px 38px;
+}
+
+
+
+.menu-content-area {
+	position: absolute;
+	display: none;
+	width: 530px;
+	z-index: 1;
+	right: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background: #CDD4D1;
+	top: 27px;
+	padding: 6px;
+	border: 10px solid #fff;
+}
+
+.main-menu-section:hover .menu-content-area {
+	display: block;
+}
+
+.main-menu ul li a {
+	margin: 0;
+	display: block;
+	font-size: 15px;
+	padding: 2px 5px;
+	color: #CE242B;
+}
+
+.logo-area img {
+	width: 80px;
+	height: auto;
+	margin: 4px 0 0 0;
+}
+
+.carousel-area {
+	padding-top: 50px;
+}
+
+
+
+.kb_caption h1 {
+	font-size: 20px !important;
+	padding: 7px 7px !important;
+}
+
+.kb_caption {
+	left: 14px;
+	width: 69%;
+	bottom: 36%;
+	text-align: left;
+}
+
+
+.kb_caption h2 {
+	font-size: 16px !important;
+
+}
+
+.kb_control_left, .kb_control_right {
+	top: 30%;
+
+}
+
+.button-menu {
+	margin: 11px 0 0 0;
+	text-align: center;
+}
+.footer-text p {
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.menu-display{
+	display: block;
+}
+
+.menu-display-2{
+	display: none;
+}
+
+.footer-post {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	padding: 9px 16px 6px 0px;
+}
+
+.comment-form-author input {
+	margin-left: 32px;
+}
+
+.comment-form-email input {
+	margin-left: 7px;
+}
+
+.sidebar-post a img {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+}
+
+.sidebar-post h2 {
+	width: 65%;
+	float: right;
+	border: none;
+	font-size: 19px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+
+.menu-button {
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 11px;
+}
+
+.top-social {
+	text-align: center;
+	margin: 4px 0px 0px 38px;
+}
+
+
+
+.menu-content-area {
+	position: absolute;
+	display: none;
+	width: 530px;
+	z-index: 1;
+	right: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background: #CDD4D1;
+	top: 27px;
+	padding: 6px;
+	border: 10px solid #fff;
+}
+
+.main-menu-section:hover .menu-content-area {
+	display: block;
+}
+
+.main-menu ul li a {
+	margin: 0;
+	display: block;
+	font-size: 15px;
+	padding: 2px 5px;
+	color: #CE242B;
+}
+
+.logo-area img {
+	width: 80px;
+	height: auto;
+	margin: 4px 0 0 0;
+}
+
+.carousel-area {
+	padding-top: 50px;
+}
+
+
+.kb_caption {
+	left: 20px;
+	width: 69%;
+	bottom: 36%;
+	text-align: left;
+}
+
+
+.menu-display{
+	display: block;
+}
+
+.menu-display-2{
+	display: none;
+}
+
+
+.footer-post {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	padding: 0px 6px 6px 0px;
+}
+
+
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.menu-display{
+	display: block;
+}
+
+.menu-display-2{
+	display: none;
+}
+
+.footer-post {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	padding: 0px 6px 6px 0px;
+}
+
+
+.carousel-area {
+	padding-top: 60px;
+}
+
+
+
+.kb_caption {
+	left: 20px;
+	width: 69%;
+	bottom: 36%;
+	text-align: left;
+}
+
+
+.popular-post {
+	margin: 20px 0px 20px 0px;
+}
+
+.sidebar-post h2 {
+	width: 70%;
+	float: right;
+	border: none;
+	font-size: 16px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+ }

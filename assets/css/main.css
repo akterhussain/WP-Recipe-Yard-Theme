@@ -1,0 +1,730 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+   }
+
+
+/* Start responsive menu */
+
+.menu-content-area {
+    position: absolute;
+    display: none;
+    width: 700px;
+    z-index: 1;
+    right: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background: #CDD4D1;
+    top: 33px;
+    padding: 15px;
+    border: 15px solid #fff;
+}
+
+.main-menu-section:hover .menu-content-area{
+    display: block;
+
+}
+
+.main-menu-section {
+    float: right;
+}
+
+
+.menu-button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+
+.menu-row{
+    width: 25%;
+    float: left;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    margin: 0;
+    padding: 0;
+    display:block;
+}
+
+.main-menu ul li a {
+    margin: 0;
+    display: block;
+    font-size: 16px;
+    padding: 2px 20px;
+    color: #CE242B;
+}
+
+.main-menu ul li a:hover {
+    background-color: #CE242B;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* End responsive menu */
+
+.carousel-area {
+    padding-top: 63px;
+}
+
+
+.top-social {
+    text-align: center;
+    margin: 4px 0 0 0;
+}
+
+
+
+
+/* Start Top Header Section*/
+
+.top-header-area {
+    background-color: #fff;
+    padding: 10px 0;
+    display: none;
+}
+
+.top-social ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.top-social ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.top-social ul li a {
+    color: #fff;;
+    display: inline-block;
+    padding: 7px;
+    font-size: 16px;
+}
+
+.top-social ul li a:hover {
+    color: #CFD6D3;
+
+}
+
+.top-menu {
+    float: none;
+    text-align: right;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.top-menu ul li a {
+    color: #F4F4F4;
+    display: block;
+    margin-left: 15px;
+}
+
+.top-menu ul li a:hover {
+    color: #818991;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+/* End Top Header Section*/
+
+
+
+/* Start Header Section*/
+
+.main-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #CE242B;
+
+}
+
+.logo-area img {
+    width: 70%;
+    height: auto;
+}
+
+/* End Header Section*/
+
+
+
+
+
+
+
+/* Start bangla recipe Section*/
+
+.main-section {
+    padding: 70px 0;
+}
+
+.recent-post-section {
+    padding-bottom: 50px;
+}
+
+
+.section-title h2 {
+    color: #CE242B;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #CE242B;
+    width: 100%;
+}
+
+
+.post-content {
+    margin-top: 20px;
+}
+
+
+.blog-content {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #CDD4D1;
+}
+
+
+.blog-content:hover {
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.blog-area a img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-content h2 {
+    font-size: 22px;
+    margin: 5px;
+}
+
+
+.blog-content p {
+    margin: 5px;
+}
+
+
+
+figure {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 100%;
+    height: auto;
+}
+
+.hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+
+
+
+.read-more {
+    background-color: #CE242B;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 8px 0 30px 0;
+}
+
+.read-more:hover {
+    background-color: #818991;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.video-area {
+    margin: 20px 0;
+}
+
+
+.video-content iframe {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* End bangla recipe Section*/
+
+
+
+.bangla-recipe-content h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.bangla-recipe-content p {
+    margin: 0 0 0 0;
+}
+
+
+
+
+.cake-image-content{
+    width: 30%;
+    float: left;
+}
+
+.cake-text-content{
+    width: 70%;
+    float: right;
+    padding-left: 20px;
+}
+
+
+.cake-text-content h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+
+.cake-text-content p {
+    margin: 0;
+}
+
+.bangla-recipe-section{
+    padding-bottom: 50px;
+}
+
+
+/* Top Footer Area */
+
+
+.top-footer {
+    background: #CDD4D1;
+    padding: 50px 0;
+}
+
+.footer-about a img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-about a {
+    color: #333;
+}
+
+
+
+.footer-about a:hover {
+    color: #CE242B;
+    text-decoration: none;
+}
+
+
+
+
+/* Button Footer Area */
+
+.button-footer{
+    background-color: #CE242B;
+}
+
+.footer-text p {
+    text-align: right;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.footer-text p a {
+    color: #CDD4D1;
+}
+
+.footer-text p a:hover {
+    color: #818991;
+    text-decoration: none;
+}
+
+
+
+
+.footer-menu {
+    width: 50%;
+    float: left;
+}
+
+
+
+.footer-recipe h2 {
+    font-size: 22px;
+    color: #CE242B;
+}
+
+.footer-recipe ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-recipe ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.footer-recipe ul li a {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.footer-recipe ul li a:hover {
+    text-decoration: none;
+    color: #CE242B;
+}
+
+.footer-recipe button {
+    background: #CE242B;
+    color: #fff;
+    border: none;
+    padding: 4px 10px;
+    margin: 10px 0 0 0;
+}
+
+
+.footer-recipe button:hover {
+    background: #818991;
+    color: #fff;
+}
+
+.footer-recipe input {
+    line-height: 19px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+

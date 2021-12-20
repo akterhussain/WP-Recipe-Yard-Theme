@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-01-12 00:18+0600\n"
+"PO-Revision-Date: 2019-01-12 23:40+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: category.php:39 index.php:129
+msgid "Read More"
+msgstr "বিস্তারিত"
+
+#: footer.php:21
+msgid "Browse Recipe"
+msgstr "রেসিপি গুলো দেখুন"
+
+#: footer.php:45
+msgid "Post Gallery"
+msgstr "পোস্ট গ্যালারি"
+
+#: footer.php:84
+msgid "Subscribe Newsletter"
+msgstr "নতুন পোস্টের জন্য সাবস্ক্রাইব"
+
+#: footer.php:85
+msgid "Subscripbe to our mailing list to get the update post to you mail "
+msgstr "নিয়মিত ইমেলের মাধ্যেমে নতুন নতুন পোস্ট গুলো পাওয়ার জন্য নিচে আপনার মেইল এড্রেস দিয়ে সাবস্ক্রাইব করুন"
+
+#: footer.php:87
+msgid "Subscribe"
+msgstr "সাবস্ক্রাইব করুন"
+
+#: footer.php:122
+msgid "Copyright"
+msgstr "কপিরাইট"
+
+#: footer.php:122
+msgid "monirecipe.com"
+msgstr "মনি রেসিপি"
+
+#: header.php:52
+msgid "Recipes"
+msgstr "রেসিপি"
+
+#: index.php:92 right_sidebar.php:3
+msgid "Recent Posts"
+msgstr "সাম্প্রতিক পোস্ট গুলো"
+
+#: right_sidebar.php:38
+msgid "Popular Posts"
+msgstr "জনপ্রিয় পোস্ট গুলো"
+
+#: single.php:45
+msgid "Related Posts"
+msgstr "সংশ্লিষ্ট আরো পোস্ট"
